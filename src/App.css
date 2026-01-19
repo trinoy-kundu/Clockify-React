@@ -12,7 +12,7 @@ body {
 
 /* The main heading */
 .heading {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #61dafb; /* React blue color */
