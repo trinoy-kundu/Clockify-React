@@ -5,6 +5,6 @@ import Clock from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Clock />
+    <Clock locale = "bn-BD"/>
   </StrictMode>,
 )
