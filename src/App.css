@@ -1,0 +1,34 @@
+/* Container styling to center everything */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #282c34; /* Dark background */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* The main heading */
+.heading {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #61dafb; /* React blue color */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* The clock display */
+.clock {
+  font-size: 4rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: 'Courier New', Courier, monospace; /* Digital look */
+}

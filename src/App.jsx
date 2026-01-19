@@ -1,3 +1,4 @@
+import "./App.css";
 import React from "react";
 export default class Clock extends React.Component {
   state = {date: new Date()};
@@ -21,7 +22,7 @@ export default class Clock extends React.Component {
     const {locale} = this.props;
 
     return(
-      <div>
+      <div className="clock-container">
         <h1 className="heading">Clock</h1>
         <h2 className="clock">{date.toLocaleTimeString(locale)}</h2>
       </div>
